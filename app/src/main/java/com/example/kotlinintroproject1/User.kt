@@ -1,3 +1,5 @@
 package com.example.kotlinintroproject1
 
-data class User(val name: String, val  names: MutableList<String>)
+class User(val firstName: String, val lastName: String){
+    val fullName = "$firstName $lastName"
+}
